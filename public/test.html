@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<body style="margin:0;overflow:hidden">
+  <canvas id="test" style="width:100vw;height:100vh"></canvas>
+  <script>
+    const canvas = document.getElementById('test')
+    const gl = canvas.getContext('webgl')
+    gl.clearColor(0, 0.5, 1, 1)
+    gl.clear(gl.COLOR_BUFFER_BIT)
+  </script>
+</body>
+</html>
